@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" th:href="@{bootstrap-3.3.7-dist/css/bootstrap.min.css}">
+	<link rel="stylesheet" type="text/css" th:href="@{css/index.css}">
+	<style type="text/css">
+.navbar{ transition: background-color 0.5s linear; }
+@media screen and (max-width: 992px){
+	.content{margin:0px;position: relative;}
+	.content h2{color:black;font-size: 25px;font-weight:bold;}
+	.content p{color:black;font-size: 15px;}
+	.contentbutton{font-size: 15px;}
+}
+@media screen and (max-width: 768px){
+	.threeh{font-size: 25px;text-align: center;}
+	.threep{font-size:15px;text-align: center;}
+	.content img{margin:0 auto;}
+	.ipad img{margin:0 auto;}
+	.blue6{padding:0px 15%;}
+}
+
+	</style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top" role="navigation" style="">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="navbar-header col-lg-2 col-lg-offset-1 col-md-2 col-sm-2 col-xs-7">
+        <img src="img/logo.png" style="width:35%;max-width: 100px;" class="img-responsive">
+
+    </div>
+
+    <div class="navdiv col-lg-9 col-md-10 col-sm-10" style="z-index: 100;padding-top:1%;">
+        <ul class="nav navbar-nav collapse navbar-collapse pull-right " id="navbar-collapse" >
+            
+            <li><a href="/login" style="color:#898989">登录</a></li>
+            <li><a href="/ywlogin" style="color:#898989">iksns登录</a></li>
+            <li><a href="/register" style="color:#898989">注册</a></li>
+            
+        </ul>
+
+    </div>
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="position: absolute;left: 90%;top: 18%;z-index: 999;">
+			<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+			</button>
+                   
+            </div>
+    </div>
+</nav>
+<section style="overflow: hidden;">
+<div class="container-fluid" style="padding:0px;">
+<img src="img/bg.jpg" class="img-responsive">
+
+	
+
+</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12 ipad pull1">
+				<img src="img/img1.png" class="img-responsive">
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12 pull11">
+				<h2 class="threeh" style="">随时记录一切</h2>
+				<p class="threep" style="">无论是点滴灵感、待办清单、或是会议记录、项目
+<br>资料，印象笔记在手，方便随时记录，永久保存<br>
+内容。</p>
+
+			</div>
+			
+		</div>
+		<div class="row" style="margin-top: 10%;
+		">
+		<div class="col-md-6 col-sm-6 col-xs-12">
+		<h2 class="threeh" style="">支持所有设备</h2>
+					<p class="threep" style="">你可以用印象笔记保存一切，笔记会自动同步到所有<br>设备。再也不用回想某个东西究竟存在哪台设备,<br>因为它就在印象笔记里。</p>
+		</div>
+			<div class="col-md-6 col-sm-6 col-xs-12 ipad">
+				<img src="img/img2.png" class="img-responsive">
+			</div>
+		</div>
+		<div class="row" style="margin-top: 10%;
+		">
+		<div class="col-md-6 col-sm-6 col-xs-12 ipad">
+				<img src="img/img3.png" class="img-responsive">
+			</div>
+		<div class="col-md-6 col-sm-6 col-xs-12">
+		<h2 class="threeh" style="">高效协作共享</h2>
+					<p class="threep" style=""> 无需跳出应用，即可基于笔记展开讨论，
+共享工作<br>笔记本，合作完成团队目标。</p>
+		</div>
+			
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container-fluid" style="background:#f5fcff;">
+		<div class="row blue6" style="">
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue1.png">
+				<p>一键收集微信、网页、微博
+、剪切板等碎片化信息，批
+量导入各种文档。</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue2.png">
+				<p>以文字、清单、图片、拍照
+、语音等形式记录，一次记
+录永久保存。</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue3.png">
+				<p>遵循Office习惯的轻量级编
+辑工具，同时支持Markdown
+，帮你写出漂亮的文档。</p>
+			</div>
+		
+	
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue4.png">
+				<p>资料永久保存在云端，修
+改后的笔记会保存历史版
+本，无需担心资料丢失。</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue5.png">
+				<p>使用群组、多级文件夹
+、标签和笔记内链整理
+资料，让资料井井有条。</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12" style="text-align: center;">
+				<img src="img/blue6.png">
+				<p>通过文件夹、关键词搜索
+、快捷方式、近期笔记和消
+息等方式快速找到所需资料。</p>
+			</div>
+		</div>
+	</div>
+</section>
+<footer style="width:100%;height: 50px;background:black;">
+	
+</footer>
+</body>
+<script type="text/javascript" th:src="@{/jquery-3.2.1/jquery-3.2.1.min.js}"></script>
+<script type="text/javascript" th:src="@{/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script>
+<script type="text/javascript">
+	setInterval(()=>{
+		if($(document).scrollTop() > 0 ) {
+	
+			$(".navbar").css("background-color","#fff");
+			
+			$(".nav li a").css("color","black");
+		}else {
+			
+			$(".navbar").css("background-color","rgba(0,0,0,0)");
+			$(".nav li a").css("color","#898989");
+			
+		}
+		if($(document).scrollTop()>450){
+
+			$(".pull1").animate({"padding-top":"0px"},{"opacity":"0"});
+		}
+
+	},100)
+
+</script>
+</html>
